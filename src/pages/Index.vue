@@ -5,7 +5,7 @@
       <h1><a href="https://music-at-snipes-farm.ticketleap.com/in-and-out-of-the-garden-we-go-2023/">In And Out of the Garden We Go Festival 2023</a></h1>
       <a href="https://music-at-snipes-farm.ticketleap.com/in-and-out-of-the-garden-we-go-2023/"><g-image class="logo" alt="Music at Snipes Farm" src="~/in-and-out.jpg" width="400px" /></a>
       <p><em>Our 15th year of In and Out of the Garden We Go</em></p>
-      <p>Come join us for a spectacular weekend celebrating the music we all love.  Steal Your Face will headline Friday night. Opening for them will be Zen Dog.</p>
+      <p>Come join us for a spectacular weekend celebrating the music we all love.  Steal Your Face will headline Friday night.</p>
       <p>Saturday co-headliners will be Johnny Lit's Jury Duty and Jawn of the Dead. Also on the Saturday line-up will be Lovelight, Three Fourteen, Reality Check Experiment, and many others.</p>
       </div>
     </article>

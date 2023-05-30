@@ -19,7 +19,7 @@
         <div class="subheader">
           <!--<p><em>"Everything worthwhile is done with others," -Moussa Kaba</em>
           </p>-->
-          <p style="color: #FD4659;">
+          <p style="color: #4B0082;">
             Music at Snipes Farm brings the best of regional talent to a beautiful outdoor landscape with state of the art stage production.
           </p>
         </div>
@@ -64,7 +64,7 @@ h1 {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  color: #FD4659;
+  color: #4B0082;
 }
 article h1 {
   font-size: 2em;

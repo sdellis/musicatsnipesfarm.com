@@ -2,18 +2,32 @@
   <section>
       <div class="wrapper">
         <header id="header">
-        <div class="logo-box">
-            <g-image class="logo" alt="Music at Snipes Farm" src="~/heart-arrow.png" width="32px" />
-          <strong>
-            <g-link class="logotype" to="/">{{ $static.metadata.siteName }}</g-link>
-          </strong>
-        </div>
+          <div class="logo-box">
+              <g-image class="logo" alt="Music at Snipes Farm" src="~/snipes-logo.png" width="200px" />
+            <!-- <strong>
+              <g-link class="logotype" to="/">{{ $static.metadata.siteName }}</g-link>
+            </strong> -->
+          </div>
+          <nav class="nav">
+            <g-link class="nav__link" to="/">Home</g-link>
+            <g-link class="nav__link" to="https://music-at-snipes-farm.ticketleap.com/">Events Schedule</g-link>
+            <g-link class="nav__link" to="/grounds/">Maps and Grounds</g-link>
+            <!-- <g-link class="nav__link" to="/support/">Support Music at Snipes</g-link> -->
+            <g-link class="nav__link" to="https://music-at-snipes-farm.ticketleap.com/">Buy Tickets!</g-link>
+          </nav>
         </header>
+        <div class="subheader">
+          <!--<p><em>"Everything worthwhile is done with others," -Moussa Kaba</em>
+          </p>-->
+          <p style="color: #FD4659;">
+            Music at Snipes Farm brings the best of regional talent to a beautiful outdoor landscape with state of the art stage production.
+          </p>
+        </div>
         <main>
-          We'll be right back!
+          <slot/>
         </main>
         <footer>
-
+          © 2023 Music at Snipes Farm
         </footer>
   </div>
 </section>
@@ -125,11 +139,13 @@ footer {
 
 main {
   /* min-height: 100%; */
-  display: grid;
+  /* display: grid;
   grid-template-columns: 0px auto 0px;
   grid-template-rows: auto 1fr auto;
   grid-template-areas: "sidebar-2" "article" "sidebar-1";
-  grid-gap: 1rem;
+  grid-gap: 1rem; */
+  width: 50%;
+  margin: auto;
 }
 
 /* @media screen and (min-width: 600px) {
@@ -143,26 +159,26 @@ main {
 } */
 
 .sidebar-right {
-  grid-area: sidebar-2;
+  /* grid-area: sidebar-2;
   padding-right: 20px;
   position: sticky;
   top: 0;
   height: 100vh;
   box-sizing: border-box;
-  display: none;
+  display: none; */
 }
 
 .sidebar-left {
-  grid-area: sidebar-1;
+  /* grid-area: sidebar-1;
   padding-left: 20px;
-  display: none;
+  display: none; */
 }
 
 article {
-  grid-area: article;
+  /* grid-area: article;
   margin-top: -3rem;
   padding: 2rem;
-  grid-column: 1 / span 3;
+  grid-column: 1 / span 3; */
 }
 
 .media {
@@ -175,37 +191,37 @@ article {
 @media screen and (min-width: 900px) {
   header {
     margin-bottom: -20px;
-    height: 80px;
+    height: 120px;
   }
   .welcome {
-    max-width: 500px;
-    padding: 2rem;
+    width: 50%;
+    margin: auto;
   }
   .subheader {
     height: 80px;
   }
   main>article {
-      grid-column: article;
+      /* grid-column: article; */
   }
   article {
-    padding: 0;
-    grid-column: 2 / span 1;
+    /* padding: 0;
+    grid-column: 2 / span 1; */
   }
   media {
     padding: 0;
     grid-column: 2 / span 1;
   }
   .sidebar-right {
-    display: block;
+    /* display: block; */
   }
 
   .sidebar-left {
-    display: block;
+    /* display: block; */
   }
   main {
-    grid-template-columns: 250px auto 250px;
+    /* grid-template-columns: 250px auto 250px;
     grid-template-rows: auto 1fr auto;
-    grid-template-areas: "sidebar-1 article sidebar-2";
+    grid-template-areas: "sidebar-1 article sidebar-2"; */
   }
 }
 

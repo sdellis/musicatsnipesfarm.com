@@ -10,14 +10,6 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'tasks/**/*.md',
-        typeName: 'Tasks',
-        remark: {}
-      }
-    },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
         path: 'events/**/*.md',
         typeName: 'Events',
         remark: {}

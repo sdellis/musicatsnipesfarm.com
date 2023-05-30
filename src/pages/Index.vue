@@ -35,4 +35,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+article p, article h3 {
+  padding-left: 0em;
+}
 </style>

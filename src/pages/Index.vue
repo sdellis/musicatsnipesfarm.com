@@ -2,11 +2,11 @@
   <Layout>
     <article>
       <div class="welcome">
-      <h1><a href="https://music-at-snipes-farm.ticketleap.com/in-and-out-of-the-garden-we-go-2023/">In And Out of the Garden We Go Festival 2023</a></h1>
-      <a href="https://music-at-snipes-farm.ticketleap.com/in-and-out-of-the-garden-we-go-2023/"><g-image class="logo" alt="Music at Snipes Farm" src="~/in-and-out.jpg" width="400px" /></a>
-      <p><strong>Our 15th year of In and Out of the Garden We Go</strong></p>
-      <p>Come join us for a spectacular weekend celebrating the music we all love.  Steal Your Face will headline Friday night.</p>
-      <p>Saturday co-headliners will be Johnny Lit's Jury Duty and Jawn of the Dead. Also on the Saturday line-up will be Lovelight, Three Fourteen, Reality Check Experiment, and many others.</p>
+      <h1><a href="https://music-at-snipes-farm.ticketleap.com/harvest-moon-music-festival/">Harvest Moon Festival 2023</a></h1>
+      <a href="https://music-at-snipes-farm.ticketleap.com/harvest-moon-music-festival/"><g-image class="logo" alt="Music at Snipes Farm" src="~/HarvestMoon2023poster.jpg" width="400px" /></a>
+      <p><strong>Harvest Moon Festival 2023</strong></p>
+      <p>A celebration of the best of regional music.  A collection of the finest musicians and bands in the Philadelphia and New Jersey area.  Two nights and one day of music - Friday, September 15th from 5 to 11 and Saturday, September 16th, from noon until 11.  First-class sound and light production by Scarlett Sound and Lights.</p>
+      <p>Jonathan Denny's Dad and Company are headlining Saturday night and Kevin Hill and Secret Sound are headlining Friday night.  Sister Blue, Cara Courtney, and many others will fill out the bill. Camping is available. Friday only and Children's tickets are available only at the gate.</p>
       </div>
     </article>
     </div>
